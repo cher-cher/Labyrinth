@@ -30,11 +30,11 @@ public class GhostController : MonoBehaviour {
         }
         if (x != 0 || y != 0)
         {
-            animation.Play("ghost_move");
+            //animation.Play("bat_move");
         }
         else
         {
-            animation.Play("ghost_idle");
+            //animation.Play("bat_idle");
         }
     }
 }
